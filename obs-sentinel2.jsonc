@@ -1,0 +1,16 @@
+// represents a kafka event (observation) from the sentinel2 gatherer
+{
+    "data": { // the data object is a GeoJSON feature
+        "type": "Feature",
+        "geometry": "", // geometry is taken from the 'footprint' attribute within the products odata
+        "properties": { 
+            "id": "", // elevated from the products odata
+            "title": "", // elevated from the products odata
+            "size": "", // elevated from the products odata
+            "date": "", // elevated from the products odata
+            "url": "", // elevated from the products odata
+            "cloud_cover_percentage": "", // elevated from the products odata
+            "odata": "" // the products full odata in its original form
+        }
+    }
+}

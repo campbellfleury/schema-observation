@@ -1,0 +1,10 @@
+// represents a kafka event (observation) from the ldschangeset gatherer
+{
+    "data": { // the data object is a GeoJSON feature, presented via the LINZ Data Service with EPSG:4326
+        "type": "Feature",
+        "geometry": "",
+        "properties": {
+            "revision_date": "" // A revision_date attribute is appended to the properties object of all observations. It is the Date and Time of the observation run. 
+        }
+    }
+}
